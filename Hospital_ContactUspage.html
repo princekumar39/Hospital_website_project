@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Hospital_CotactUspage.css">
+     
+    <!-- adding the google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+       rel="stylesheet"
+     />
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Navigation section  -->
+   <nav class="navigation">
+      <img src="./Assets/logo.png" alt="error">
+      <ul class="naviagtion_lists">
+        <li><a class="nav_anker" href="http://127.0.0.1:5500/Hospital_Homepage.html" target="_blank">Home</a></li>
+        <li><a class="nav_anker" href="http://127.0.0.1:5500/Hospital_Aboutpage.html">About Us</a></li>
+        <li><a class="nav_anker" href="http://127.0.0.1:5500/Hospital_ContactUspage.html" target="_blank">Contact Us</a></li>
+    </ul>
+   </nav>
+
+   <!-- Form section for user to get touch with us -->
+   <main>
+    <div class="whole_div">
+        <form action="http://127.0.0.1:5500/HospitalSubmition_page.html" method="post">
+              <h1>Contact Form</h1>
+              <div class=" div div1">
+                <label for="UserName">Name</label>
+                <input id="userName" type="text" name="userName" placeholder="Enter your name">
+              </div>
+             
+              <div class=" div div1">
+                <label for="usermail">Email</label>
+                <input id= "usermail" type="text" placeholder="Enter Your email">
+              </div>
+
+              <div class=" div div1">
+                <label for="usermessage">Message</label>
+                <textarea name="usermessaage" id="usermessage" placeholder="Enter your message"></textarea>
+              </div>
+              <a class="buttonanker"href="http://127.0.0.1:5500/HospitalSubmition_page.html"> <button type="button">Submit</button></a>
+            </form>
+    </div>
+   </main>
+</body>
+</html>

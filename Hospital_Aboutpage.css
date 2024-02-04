@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+  background-color:black;
+  max-width: 1440px;
+  margin: auto; 
+}
+ 
+/* ................Navigation bar......................... */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    margin: 20px;
+}
+.naviagtion_lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+
+}
+
+nav ul li {
+    font-weight: 900;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #20bc7e;
+    
+}
+a:hover{
+    font-size: x-large;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 2px 5px 2px;
+    -Webkit-box-reflect:below 
+    1px linear-gradient(transparent,#0005);
+    box-shadow:0 0 5px #00f0fb, 0 0 15px #00f0fb, 0 0 25px #00f0fb, 0 0 100px #00f0fb;
+}
+/* ..............main-section.............. */
+main {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+  }
+.main_heading{
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.main_heading h1{
+    margin-bottom: 20px;
+    color: #20bc7e;
+}
+.main_heading p{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: bisque;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+    /* .....achieemnt cards............ */
+.achievement{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   margin-top: 50px;
+}
+.achievementCard{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 0 0 40px whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.achievementCard h2 {
+    padding: 60px 30px 0px 30px ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #20BC7E;
+  }
+  
+  .achievementCard p {
+    padding:0px 30px ;
+    text-align: center;
+    color: bisque;
+    font-size: 20px;
+    font-weight: 500;
+  }

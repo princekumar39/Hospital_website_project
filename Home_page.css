@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color:black;
+    color: antiquewhite;
+    margin: auto;
+  }
+
+
+  /*.......................... Navigation section...................*/
+.navigation {
+    color: antiquewhite;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 5%;
+}
+.naviagtion_lists{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    list-style: none; 
+}
+nav ul li {
+    font-weight: 900;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: #20bc7e;
+  }
+a:hover{
+    font-size: x-large;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 2px 5px 2px;
+    -Webkit-box-reflect:below 
+    1px linear-gradient(transparent,#0005);
+    box-shadow:0 0 5px #00f0fb, 0 0 15px #00f0fb, 0 0 25px #00f0fb, 0 0 100px #00f0fb;
+}
+
+  /*................... Main section....................... */
+ .main_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+ }
+
+ /*............. css for left section of the site...................... */
+ .left_section{
+    margin: 5%;
+    position: relative;
+ }
+
+ .topangle{
+   width: 25px;
+ }
+
+ .left_Section h1 {
+    font-size: 70px;
+    font-weight:500;
+  }
+  
+  .left_Section p {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .bottomAngle{
+    position: absolute;
+    width:25px;
+    right: 25px;
+  }
+  .stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+  }
+  button{
+    background-color:  #20bc7e;
+    color: white;
+    border-radius:40px ;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  button:hover{
+    border: 2px solid red;
+    border-radius: 10px;
+    -Webkit-box-reflect:below 
+    3px linear-gradient(transparent,#0005);
+    box-shadow:0 0 5px #00f0fb, 0 0 15px #00f0fb, 0 0 25px #00f0fb, 0 0 100px #00f0fb;
+}
+.mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+
+/*............. css for right section of the site...................... */
+.greenboxpng{
+    position: absolute;
+    right: 0;
+    width: 35%;
+    bottom: 30px;
+    z-index: -1;
+}
+.yellowBoxpng{
+   position: absolute;
+   right: 0;
+   width: 30%;
+   bottom: 50px;
+   z-index: -1;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
